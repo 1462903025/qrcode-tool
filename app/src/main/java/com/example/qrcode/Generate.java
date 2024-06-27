@@ -194,7 +194,7 @@ public class Generate extends AppCompatActivity {
             Bitmap bitmap;
             ImageView img = findViewById(R.id.img);
             if (changeButton.getText().equals("转为二维码")) {
-                Bitmap logo = BitmapFactory.decodeResource(getResources(), R.drawable.njupt);
+                Bitmap logo = BitmapFactory.decodeResource(getResources(), R.drawable.logic);
                 bitmap = GenerateUtils.createQRCode(text,1000,1000,logo);
                 img.setImageBitmap(bitmap);
                 changeButton.setText("转为条形码");
