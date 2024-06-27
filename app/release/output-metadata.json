@@ -4,16 +4,16 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.qrcode",
-  "variantName": "release",
+  "applicationId": "com.example.qrcode.test",
+  "variantName": "debugAndroidTest",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 1,
-      "versionName": "1.0",
-      "outputFile": "QRCodeTool.apk"
+      "versionCode": 0,
+      "versionName": "",
+      "outputFile": "app-debug-androidTest.apk"
     }
   ],
   "elementType": "File"
