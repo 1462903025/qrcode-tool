@@ -16,13 +16,13 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/icon"
-        android:label="QRCodeTool"
+        android:label="二维码生成器"
         android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/Theme.QRcode"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".InputActivity"
             android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
@@ -35,8 +35,6 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-        <activity android:name=".InputActivity"
-            android:screenOrientation="portrait"/>
         <activity android:name=".Generate"
             android:screenOrientation="portrait"/>
         <activity android:name=".Capture"
